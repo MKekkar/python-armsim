@@ -3,7 +3,7 @@ making assembly run as slow as python
 
 # details
 this project implements a partial interpreter for a subset of armv6 assembly. 
-see [test_sim.py](./test_sim.py) for a very basic usage example.
+see [test_sim.py](src/test_sim.py) for a very basic usage example.
 
 # notes & warning
 the interpreter is not faithful for certain instructions like misaligned loads or `pop {pc}`. 
